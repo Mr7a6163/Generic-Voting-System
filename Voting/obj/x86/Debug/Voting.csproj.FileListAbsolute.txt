@@ -1,0 +1,11 @@
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Debug\Voting.VotingGuiVote.resources
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\bin\Debug\Voting.exe
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\bin\Debug\Voting.pdb
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Debug\Voting.exe
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Debug\Voting.pdb
+C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Debug\Voting.DontClose.resources
+C:\Users\Zac\Documents\opensource\Voting\Voting\obj\x86\Debug\Voting.exe
+C:\Users\Zac\Documents\opensource\Voting\Voting\obj\x86\Debug\Voting.pdb

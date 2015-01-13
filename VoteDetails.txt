@@ -1,0 +1,7 @@
+vote name
+date published
+question
+option 1
+option 2
+option 3
+option 4
