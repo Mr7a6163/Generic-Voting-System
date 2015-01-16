@@ -9,14 +9,14 @@ namespace Voting
 {
     class VotingUpload
     {
-        public static string UploadCount()
+        public static string UploadCount(string domain, string user, string pass, string ftpdir)
         {
 
             DontClose wait = new DontClose();
             wait.Show();
 
             // Get the object used to communicate with the server.
-            FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://www./VoteCount.txt");
+            FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://" + domain + ftpdir + "/VoteCount.txt");
             request.Method = WebRequestMethods.Ftp.UploadFile;
 
             // This example assumes the FTP site uses anonymous logon.

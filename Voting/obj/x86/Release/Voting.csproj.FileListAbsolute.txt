@@ -7,3 +7,11 @@ C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Release
 C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Release\Voting.exe
 C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Release\Voting.pdb
 C:\Users\Zac\documents\visual studio 2010\Projects\Voting\Voting\obj\x86\Release\Voting.DontClose.resources
+C:\Users\Zac\Documents\opensource\Voting\Voting\bin\Release\Voting.exe
+C:\Users\Zac\Documents\opensource\Voting\Voting\bin\Release\Voting.pdb
+C:\Users\Zac\Documents\opensource\Voting\Voting\obj\x86\Release\Voting.AboutBox1.resources
+C:\Users\Zac\Documents\opensource\Voting\Voting\obj\x86\Release\Voting.DontClose.resources
+C:\Users\Zac\Documents\opensource\Voting\Voting\obj\x86\Release\Voting.VotingGuiVote.resources
+C:\Users\Zac\Documents\opensource\Voting\Voting\obj\x86\Release\Voting.csproj.GenerateResource.Cache
+C:\Users\Zac\Documents\opensource\Voting\Voting\obj\x86\Release\Voting.exe
+C:\Users\Zac\Documents\opensource\Voting\Voting\obj\x86\Release\Voting.pdb

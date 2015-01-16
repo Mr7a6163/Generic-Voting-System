@@ -12,11 +12,16 @@ namespace Voting
 {
     public partial class VotingGuiVote : Form
     {
+        string domain = ""; //ENTER YOUR DOMAIN HERE "test.com"
+        string ftpdir = ""; //ENTER YOUR FTP DIRECTORY "dir" NO "/" AT THE FRONT, LEAVE BLANK IF NO SUBDIR
+        string user = ""; //ENTER YOUR USERNAME "testuser"
+        string pass = ""; //ENTER YOUR PASSWORD "testpassword"
+
         public VotingGuiVote()
         {
             InitializeComponent();
-            VotingDownloadDetails.DownloadVote();
-            VotingDownloadCount.DownloadCount();
+            VotingDownloadDetails.DownloadVote(domain,user,pass,dir);
+            VotingDownloadCount.DownloadCount(domain,user,pass,dir);
         }
 
         private void VotingGuiVote_Load(object sender, EventArgs e)
@@ -52,7 +57,7 @@ namespace Voting
         {
             string listitem = listBox1.GetItemText(listBox1.SelectedItem);
             VotingAddToVote.AddToVote(textBox1.Text, textBox2.Text, listitem);
-            VotingUpload.UploadCount();
+            VotingUpload.UploadCount(domain,user,pass,dir);
         }
 
         private void button2_Click(object sender, EventArgs e)

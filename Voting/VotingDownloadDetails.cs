@@ -9,16 +9,16 @@ namespace Voting
 {
     class VotingDownloadDetails
     {
-        public static string DownloadVote()
+        public static string DownloadVote(string domain, string user, string pass, string ftpdir)
         {
             string inputfilepath = Path.GetTempPath() + "VoteDetails.txt";
-            string ftphost = "www..com";
+            string ftphost = domain;
             string ftpfilepath = "/VoteDetails.txt";
 
-            string ftpfullpath = "ftp://" + ftphost + ftpfilepath;
+            string ftpfullpath = "ftp://" + ftphost + ftpdir + ftpfilepath;
 
 
-            NetworkCredential credential = new NetworkCredential("username", "password");
+            NetworkCredential credential = new NetworkCredential(user, pass);
             WebClient request1 = new WebClient();
             request1.Credentials = credential;
             request1.DownloadFile(ftpfullpath, inputfilepath);

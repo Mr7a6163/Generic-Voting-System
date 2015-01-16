@@ -9,15 +9,15 @@ namespace Voting
 {
     class VotingDownloadCount
     {
-        public static string DownloadCount()
+        public static string DownloadCount(string domain, string user, string pass, string ftpdir)
         {
             string inputfilepath = Path.GetTempPath() + "VoteCount.txt";
-            string ftphost = "www..com";
+            string ftphost = domain;
             string ftpfilepath = "/VoteCount.txt";
 
-            string ftpfullpath = "ftp://" + ftphost + ftpfilepath;
+            string ftpfullpath = "ftp://" + ftpdir + ftphost + ftpfilepath;
 
-            NetworkCredential credential = new NetworkCredential("username", "password");
+            NetworkCredential credential = new NetworkCredential(user, pass);
             WebClient request1 = new WebClient();
             request1.Credentials = credential;
             request1.DownloadFile(ftpfullpath, inputfilepath);
